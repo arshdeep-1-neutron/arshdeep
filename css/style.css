@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Sacramento&display=swap');
+
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0px;
+
+}
+
+/*TOP SECTION*/
+
+h1{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin-top: 3.3rem;
+    color: #66BFBF;
+    line-height: 2;
+    
+}
+
+h2{
+
+    font-size: 2rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+
+a{
+    color:#11999E;
+
+}
+
+h3{
+    color: #11999E;
+    position: relative;
+    
+}
+
+.bottom-cloud{
+  
+    position: absolute;
+
+}
+
+.top-cloud{
+
+    position: relative;
+    left: 200px;
+    top:30px;
+}
+
+.top-container{
+    background-color: #ddf6f8;
+   
+    text-align: center;
+
+    padding-top: 100px;
+
+}
+
+
+
+.web{
+    text-decoration: underline;
+}
+
+/*TOP SECTION- END*/
+
+
+/*MIDDLE SECTION*/
+
+.middle-container{
+   
+    margin-bottom: 20px;
+    margin-top: 70px;
+    
+}
+
+
+.profile-p2{
+    width: 25rem;
+    margin: 20px auto 90px auto;
+    line-height: 2;
+    
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+   
+
+}
+
+.skills-h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+/****
+* Images
+**/
+.arsh-pic{
+    height: 200px;
+    border-radius: 100%;
+    transition: 1s ease;
+}
+
+.arsh-pic:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
+    }
+
+.web-img{
+  
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    transition: 1s ease;
+}
+
+.web-img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+.gap-logo{
+    width:25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+    transition: 1s ease;
+
+}
+
+.gap-logo:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+/***images - END *****/
+
+.contact-me{
+
+    margin-top: 5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-me-h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contact-me-para{
+    margin-bottom: 80px;
+}
+
+
+
+
+
+hr{
+    width: 5%;
+    border:9px;
+    border-style: dotted none none none;
+    border-color: #a3ababc1;
+    
+    margin-bottom: 50px;
+
+    
+}
+
+.contact-btn {
+    
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact-btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+/*BOTTOM SECTION*/
+
+.footer-link{
+
+    margin-right: 50px;
+    
+    color: #11999E;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.footer-link:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+.copyright{
+    position: relative;
+    top:40px;
+    font-size: 15px;
+    color: #EAF6F6;
+
+}
+
+.bottom-container{
+
+    padding: 50px;
+   
+    background-color: #66BFBF;
+
+    margin-top: 9rem;
+}
