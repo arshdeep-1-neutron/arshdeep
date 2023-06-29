@@ -10,8 +10,9 @@ body{
 /*TOP SECTION*/
 
 h1{
-    text-align: center;
+    
     font-family: 'Sacramento', cursive;
+    text-align: center;
     font-size: 5.625rem;
     margin-top: 3.3rem;
     color: #66BFBF;
